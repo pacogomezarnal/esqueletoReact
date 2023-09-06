@@ -5,7 +5,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <>
-      <Banner/>
+      <Banner textoCabecera="Equeleto Mastermind"/>
       <main className="container">
         <h1>Comenzando con React</h1>
       </main>
