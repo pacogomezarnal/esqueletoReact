@@ -1,3 +1,5 @@
+"use client"; 
+
 import Image from 'next/image'
 import Banner from './components/banner'
 import ListaCursos from './components/listaCursos'
