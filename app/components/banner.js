@@ -1,10 +1,12 @@
-
 const Banner = () =>{
     return(
-        <header>
-            <div><img src="./logo.jpg" alt="Logo Esqueleto"></img></div>
-            <div>Enseñando tecnlologia</div>
-        </header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="./logo.jpg" alt="Logo Esqueleto"></img>
+                </a>
+            </div>
+        </nav>
     )
 
   };
