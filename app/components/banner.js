@@ -1,10 +1,10 @@
-const Banner = (textoCabecera) =>{
+const Banner = ({children}) =>{
     return(
         <nav className="navbar bg-body-tertiary">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img src="./logo.jpg" alt="Logo Esqueleto"/>
-                    {textoCabecera}
+                    {children}
                 </a>
             </div>
         </nav>
